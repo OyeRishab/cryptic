@@ -138,9 +138,11 @@ function createBlock(bool){
 
   else if (atCounter>=85&&bool=="false"&&after85==1){
     after85 = 0;
+    atCounter += 1;
   }
   else if (atCounter>=95&&bool=="false"&&after95==1){
     after95 = 0;
+    atCounter += 1;
   }
 
   else {

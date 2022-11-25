@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+#text-container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+button {
+  font-size: 20px;
+}

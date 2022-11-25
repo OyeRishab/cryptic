@@ -4,11 +4,23 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+  <title>Team Void</title>
 </head>
 <body>
-  <p id="1AT21CS084">1AT21CS084</p>
-  <p id="AT1">0</p>
+  <h1>Team Void</h1>
+  <p id="text-container">We have used block chain to incentivize students to attend classes by providing <strong>PRESENT MA'AM PASS</strong> integrated with your ID card
+  <br><br>If you have an attendance score of more than 85%+, <br> you get ONE PRESENT MA'AM PASS
+  <br><br> Similarly, if you have an attendance score of 95%+ <br> you get total of TWO PRESENT MA'AM PASS </p>
+  <p>For Example : <br>Play with the buttons to give attendance and check it out</p>
+  <p id="1AT21CS084"><strong>1AT21CS084</strong></p>
+  <div style="display: flex; justify-content: center;">
+    <p>Attendance : </p>
+    <p id="AT1"> 0</p>
+  </div>
   <button onclick="createBlock('true')">PRESENT</button>
   <button onclick="createBlock('false')">ABSENT</button>
   <script src="main.js"></script>
